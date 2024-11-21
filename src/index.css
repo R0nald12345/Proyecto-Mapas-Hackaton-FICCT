@@ -1,0 +1,24 @@
+.mapContainer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position:absolute;
+}
+
+.info{
+
+  position:fixed;
+  top:20px;
+  left:20px;
+  baground-color: rbga( 0,0,0,0.5);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  z-index:99;
+
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
